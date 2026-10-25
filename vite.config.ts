@@ -6,4 +6,7 @@ export default defineConfig({
   // Relative asset paths let the app run from a GitHub Pages project subpath.
   base: './',
   plugins: [react()],
+  build: {
+    outDir: 'docs',
+  },
 });

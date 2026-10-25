@@ -67,3 +67,5 @@ npm test
 ```bash
 npm run build
 ```
+
+The production build is written to `docs/` for GitHub Pages branch publishing. To deploy updates, build the app and push the updated `docs/` directory to `main`; GitHub Pages is configured to publish `main /docs`.
